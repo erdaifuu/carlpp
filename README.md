@@ -9,6 +9,7 @@ My attempt at a reimplementation of (most of) the C++ standard library from scra
 - [ ] deque
 - [ ] array
 - [ ] queue, stack
+- [ ] priority queue, heap
 - [ ] map, set
 - [ ] string
 - [ ] move, swap
