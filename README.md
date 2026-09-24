@@ -5,15 +5,18 @@ My attempt at a reimplementation of (most of) the C++ standard library from scra
 
 ## Roadmap
 - [ ] vector
+- [ ] list
+- [ ] deque
+- [ ] array
+- [ ] queue, stack
+- [ ] map, set
+- [ ] string
 - [ ] move, swap
 - [ ] unique_ptr, make_unique
 - [ ] shared_ptr, weak_ptr, make_shared
 - [ ] optional
 - [ ] any
 - [ ] variant
-- [ ] string
 - [ ] unordered_map, unordered_set
-- [ ] map, set
-- [ ] list
 - [ ] LRU cache
 - [ ] Pool allocator
