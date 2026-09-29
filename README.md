@@ -5,7 +5,8 @@ My attempt at a reimplementation of (most of) the C++ standard library from scra
 
 ## Roadmap
 ### Containers
-- [ ] vector
+- [x] vector - implemented using three pointers (start, end, end_of_allocation) and an allocator object in the vector.
+- [ ] copy-swap-buffer - buffer implemented using the copy & swap idiom
 - [ ] list
 - [ ] deque
 - [ ] array
@@ -22,9 +23,8 @@ My attempt at a reimplementation of (most of) the C++ standard library from scra
 
 ### OS 
 - [ ] LRU cache
+- [ ] Arena/Linear allocator
 - [ ] Pool allocator
-- [ ] SPSC Queue
-- [ ] Ring Buffer
 
 ### Concurrency
 - [ ] Mutex
@@ -36,3 +36,5 @@ My attempt at a reimplementation of (most of) the C++ standard library from scra
 - [ ] any
 - [ ] variant
 - [ ] bump/arena allocator
+- [ ] SPSC Queue
+- [ ] Ring Buffer
